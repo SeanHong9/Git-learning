@@ -1,1 +1,1 @@
-# Git=learnign
+# Git=learning

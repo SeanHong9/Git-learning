@@ -27,3 +27,26 @@ double quote內描述更新修改的內容
 
 06. git log
 查看過去commit作者和時間
+
+---github相關
+status> add> commit >push
+07. git remote add <名稱><網址>
+新增一個叫做<名稱>的Remote到<網址>
+
+08. git remote
+查看有哪些remote 
+
+09. git push <remote><branch>
+將<branch>推到<remote>這個github repo
+-u 將來的push會預設成這個<remote>
+---/
+10. git reset -- <file>
+unstage file
+
+11. git checkout -- <file>
+discard <file> changes
+ 
+12. git reset --soft HEAD~<counter>
+undo last <counter> commit
+
+

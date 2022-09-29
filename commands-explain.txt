@@ -1,0 +1,43 @@
+
+9/29 git learning 
+https://www.youtube.com/watch?v=Zd5jSDRjWfA
+01. git init
+repository initialization
+
+02. git status
+追蹤untracked和modified變化
+untracked Files 未新增到git
+modified Files 已新增但與儲存版本不同
+
+03. git add <File> 
+將<File>加入git追蹤
+*git add . 加入所有檔案
+
+04. git status 
+分為new/modified/untracked
+紅色 = git未追蹤清單
+綠色 = git正在追蹤清單
+
+05. git commit (-m 不使用文字編譯器)
+保存<File>進度
+將<File>移出追蹤清單
+double quote內描述更新修改的內容
+*與Linux相同使用q w wq等指令
+
+06. git log
+查看過去commit作者和時間
+
+---github相關
+status> add> commit >push
+07. git remote add <名稱><網址>
+新增一個叫做<名稱>的Remote到<網址>
+
+08. git remote
+查看有哪些remote 
+
+09.git push <remote><branch>
+將<branch>推到<remote>這個github repo
+-u 將來的push會預設成這個<remote>
+
+
+
